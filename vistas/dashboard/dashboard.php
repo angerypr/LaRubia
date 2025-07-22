@@ -27,19 +27,19 @@ if (!isset($_SESSION['usuario'])) {
 
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
-                <a href="agregar_cliente.php" class="btn btn-primary w-100 py-3">Registrar Cliente Nuevo</a>
+                <a href="../clientes/agregar_cliente.php" class="btn btn-primary w-100 py-3">Registrar Cliente Nuevo</a>
             </div>
             <div class="col">
                 <a href="../productos/agregar_producto.php" class="btn btn-secondary w-100 py-3">Registrar Producto Nuevo</a>
             </div>
             <div class="col">
-                <a href="crear_factura.php" class="btn btn-success w-100 py-3">Crear Nueva Factura</a>
+                <a href="../facturas/formulario_factura.php" class="btn btn-success w-100 py-3">Crear Nueva Factura</a>
             </div>
             <div class="col">
-                <a href="reporte_diario.php" class="btn btn-warning w-100 py-3">Ver Reporte Diario</a>
+                <a href="../facturas/reporte_diario.php" class="btn btn-warning w-100 py-3">Ver Reporte Diario</a>
             </div>
             <div class="col">
-                <a href="listar_facturas.php" class="btn btn-info w-100 py-3">Listar Facturas</a>
+                <a href="../facturas/listar_facturas.php" class="btn btn-info w-100 py-3">Listar Facturas</a>
             </div>
             <div class="col">
                 <a href="logout.php" class="btn btn-danger w-100 py-3">Cerrar Sesión</a>
